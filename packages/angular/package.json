@@ -1,0 +1,30 @@
+{
+  "name": "@answerfield/angular",
+  "version": "0.1.0",
+  "description": "Angular-Komponenten für answerfield-Aufgaben und -Testhefte (dünne Schicht über @answerfield/player)",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json -c tsconfig.lib.json"
+  },
+  "peerDependencies": {
+    "@angular/core": "^22.2.0"
+  },
+  "dependencies": {
+    "@answerfield/bundle": "https://github.com/answerfield/af-format/releases/download/v0.1.0/answerfield-bundle-0.1.0.tgz",
+    "@answerfield/player": "https://github.com/answerfield/af-runtime/releases/download/v0.1.0/answerfield-player-0.1.0.tgz",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^22.2.0",
+    "@angular/compiler": "^22.2.0",
+    "@angular/compiler-cli": "^22.2.0",
+    "@angular/core": "^22.2.0",
+    "ng-packagr": "^22.2.0",
+    "typescript": "~6.0.2"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/answerfield/af-web-assessment",
+    "directory": "packages/angular"
+  }
+}

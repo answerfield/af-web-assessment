@@ -1,0 +1,3 @@
+public/bundles/*
+!public/bundles/example/
+public/assets/

@@ -1,0 +1,19 @@
+{
+  "name": "af-web-assessment",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/angular",
+    "apps/assessment-web"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm test --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2"
+  }
+}
